@@ -102,6 +102,14 @@ func apiKeyExample() {
 	// fmt.Println(param)
 	// checkout, _ := client.CreateCheckout(param)
 	// printResult(checkout)
+
+	// fmt.Println("Checkouts")
+	// checkouts, _ := client.Checkouts(1, 2)
+	// printResult(checkouts)
+
+	// fmt.Println("Checkout")
+	// checkout, _ := client.Checkout("MAI_e0ed7f02b42f4303358885a4aebd17f339cb71cf0ec1")
+	// printResult(checkout)
 }
 
 func oauthExample() {
